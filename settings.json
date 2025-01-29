@@ -214,15 +214,24 @@
             }
           ]
     },
+    // change the selection color
+    "workbench.colorCustomizations": {
+    "editor.selectionHighlightBackground": "#a6c5a8"
+},
     // "material-icon-theme.saturation": 0,
     "material-icon-theme.saturation": 1,
-    "vscode_custom_css.imports": [
-        "file:///C:/Users/jayde/vscode-settings-json-main/custom-vscode.css",
-         "file:///C:/Users/jayde/vscode-settings-json-main/vscode-script.js"
-    ],
-    "workbench.colorTheme": "React Theme",
+    "vscode_custom_css.imports":[
+    "file:///C:/Users/jayde/vscode-settings-json-main/custom-vscode.css",
+    "file:///C:/Users/jayde/vscode-settings-json-main/vscode-script.js"
+   ],
     "workbench.sideBar.location": "right",
     "material-icon-theme.files.color": "#42a5f5",
     "workbench.tree.enableStickyScroll": false,
+    "workbench.colorTheme": "React Theme",
+    "editor.formatOnPaste": true,
+    "eslint.format.enable": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "prettier.singleAttributePerLine": true,
+    "prettier.vueIndentScriptAndStyle": true,
     "workbench.iconTheme": "material-icon-theme"
 }
