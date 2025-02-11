@@ -172,7 +172,7 @@
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
     "diffEditor.wordWrap": "on",
     "notebook.output.wordWrap": true,
-    "editor.fontSize": 16,
+    "editor.fontSize": 18,
     "editor.minimap.maxColumn": 250,
     "codesnap.containerPadding": "8em",
     "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
@@ -222,6 +222,19 @@
     "workbench.colorCustomizations": {
     "editor.selectionHighlightBackground": "#878b87"
 },
+// change prettier
+     "prettier.semi": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.arrowParens": "always",
+    "prettier.jsxSingleQuote": true,
+    "prettier.bracketSpacing": true,
+    "prettier.bracketSameLine": true,
+    "prettier.printWidth": 120,
+    "prettier.proseWrap": "always",
+
+
+
     // "material-icon-theme.saturation": 0,
     "material-icon-theme.saturation": 1,
     "vscode_custom_css.imports":[
@@ -238,5 +251,10 @@
     "prettier.singleAttributePerLine": true,
     "prettier.vueIndentScriptAndStyle": true,
     "workbench.iconTheme": "material-icon-theme",
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always"
+
+
+
 }
